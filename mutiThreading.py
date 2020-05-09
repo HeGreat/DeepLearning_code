@@ -1,3 +1,4 @@
+#多线程
 import threading,time
 def run(num):
     print("子线程(%s)开始"%(threading.current_thread().name))
